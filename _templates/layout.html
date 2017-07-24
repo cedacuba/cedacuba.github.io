@@ -1,0 +1,33 @@
+{#
+    Removing the 'modules' etc text from the search
+
+    Sadly we need to pull in lots of stuff to do that.
+
+    See the agogo layout from which this is copied
+#}
+
+{% extends "agogo/layout.html" %}
+
+{% block content %}
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="document">
+          {%- block document %}
+            {{ super() }}
+          {%- endblock %}
+        </div>
+        <div class="sidebar">
+        <h3>Quick links</h3>
+        <UL>
+        <LI><A HREF="https://www.gofundme.com/2axvrpc5" NAME="DONA aqu&iacute;">DONA</A>
+        <LI><A HREF="index.html">Inicio</A>
+        </UL>
+          {%- block sidebartoc %}
+          <h3>{{ _('Table Of Contents') }}</h3>
+          {{ toctree(includehidden=True) }}
+          {%- endblock %}
+        </div>
+        <div class="clearer"></div>
+      </div>
+    </div>
+{% endblock %}
