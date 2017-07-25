@@ -49,8 +49,8 @@ h1.b1, h2.b2, h3.b3 {
 	text-decoration:none;
 	font-family: 'Marvel-Regular';
 	font-weight:700;
-	color: #B28B51;
-  font-size: 1.5em;
+	color: #6B2370;
+  font-size: 1.7em;
 	padding-top: 10px;
 }
 .header-top{
@@ -60,11 +60,11 @@ h1.b1, h2.b2, h3.b3 {
 	float:left;
 }
 .details{
-	float:right;
+	float:left;
 	width: 16%;
 }
 .detail-grid:nth-child(2){
-	margin-top:1em;
+	margin-top:2em;
 }
 .locate p{
 	float:left;
@@ -80,9 +80,10 @@ h1.b1, h2.b2, h3.b3 {
 }
 .lctr img{
 	vertical-align:top;
+	
 }
 .header{
-	background:#3c300a;
+	background:#757A80;
 }
 .top-menu ul li{
 	display:inline-block;
@@ -94,13 +95,13 @@ h1.b1, h2.b2, h3.b3 {
 	display:block;
 		font-family: 'Marvel-Regular';
 	font-weight:700;
-	font-size:1.1em;
+	font-size:1.3em;
 }
 span.menu {
 		display:none;
 }
 .top-menu ul li.active a,.top-menu ul li a:hover{
-	background:#b28b51;
+	background:#6B2350;
 }
 .search {
   position: relative;
@@ -607,8 +608,8 @@ background-position:-167px -36px;
 padding:3em 0;
 }
 .about h2,.team h3,.contact-top h2,h2.top,.gallery h3,.project-sec h2{
-color:#b28b51;
-  font-size: 2.5em;
+color:#6B2370;
+  font-size: 2.8em;
   margin-bottom: 1em;
   font-family: 'Marvel-Regular';
   font-weight: 700;
@@ -620,20 +621,20 @@ width:22%;
 margin-right:3%;
 }
 .about-info{
-float:left;
-width:75%;
+float:center;
+width:95%;
 }
 .about-info h3{
-	color: #6F5C1D;
-  font-size: 1.7em;
+	color: #757A80;
+  font-size: 2.1em;
   font-family: 'Marvel-Regular';
   font-weight: 700;
   margin-bottom: 0.7em;
 }
 .about-info p {
-font-size: 0.9em;
-  line-height: 1.9em;
-  color: #777;
+font-size: 1.5em;
+  line-height: 1.7em;
+  color: #000;
 }
 .ministries-sec{
 margin-top:2em;
@@ -987,7 +988,7 @@ text-align:center;
   font-size: 1.3em;
 }
 .container {
-  width: 733px;
+  width: 800px;
 }
 .top-menu ul li a {
   padding: 0.7em 1.5em;
@@ -1123,7 +1124,7 @@ a.read {
 }
 @media (max-width: 736px){
 .container {
-  width: 718px;
+  width: 800px;
 }
 .top-menu ul li a {
   padding: 0.7em 1.4em;
