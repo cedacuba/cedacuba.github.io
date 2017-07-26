@@ -248,7 +248,7 @@ span.menu {
 .cntnt-head span,.testi-head span{
 	display:inline-block;
 	width:10%;
-	background:#b28b51;
+	background:#757A80;
 	height:2px;
 }
 .panel-default > .panel-heading {
@@ -267,17 +267,17 @@ span.menu {
 }
 .panel-body {
   padding:7px 20px 13px;
-  color: #777;
+  color: #000;
   line-height: 1.8em;
-  font-size: 0.9em;
+  font-size: 1.4em;
 }
 .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
-  color: #343434;
-  font-size: 1em;
+  color: #6B2370;
+  font-size: 1.3em;
   margin-bottom: 6px;
 }
 .panel-title a:hover {
-  color: #b28b51;
+  color: #6B2370;
   text-decoration: none;
 }
 .panel-group {
@@ -291,7 +291,7 @@ span.menu {
   width: 60px;
   height: 60px;
   display: inline-block;
-  border: 1px solid #b28b51;
+  border: 1px solid #6B2370;
   border-radius: 620px;
   margin-bottom: 1.5em;
   padding: 14px 0px;
@@ -306,18 +306,18 @@ span.menu {
 	margin-left:3%;
 }
 .glyphicon-camera:before,.glyphicon-facetime-video:before ,.glyphicon-globe:before,.glyphicon-map-marker:before{
-  color:#BABABA;
+  color:#6B2370;
   font-size:28px;
 }
 .icon-info h4 a{
-	color:#6F5C1D;
+	color:#6B2370;
 	font-size:1em;
 	font-weight:600;
 	text-decoration:none;
 	display:inline-block;
 }
 .icon-info h4 a:hover{
-	  color:#b28b51;
+	  color:#6B2370;
 }
 .icon-info span{
 	display:inline-block;
@@ -935,7 +935,7 @@ text-align:center;
   font-size: 0.8em;
 }
 .cntnt-head h3, .recent_album h3, .news-head h3, .testi-head h3 {
-  font-size: 2em;
+  font-size: 2.0em;
 }
 .content {
   padding: 3em 0 4em 0;
