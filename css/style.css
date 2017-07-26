@@ -685,7 +685,7 @@ margin-top:3em;
 	margin: 0 3% 0% 0;
 }
 .team-grid p {
-font-size: 0.9em;
+font-size: 1.5em;
   line-height: 1.8em;
   color: #777;
 }
@@ -693,8 +693,8 @@ font-size: 0.9em;
 	width: 100%;
 }
 .team-grid h4{
-	  color:#6F5C1D;
-  font-size: 1em;
+	  color:#6B2370;
+  font-size: 1.5em;
   font-weight: 600;
   margin:0.6em 0;
 }
