@@ -454,8 +454,8 @@ a.read:hover{
 
 /*--footer--*/
 .footer{
-	 padding:3em 0;
-	 background:#343434;
+	 padding:1em 0;
+	 background:#757A80;
 }
 .ftr-grid1 h3{
 	color: #fff;
@@ -531,7 +531,7 @@ color: #fff;
 }
 /*--copywrite--*/
 .copywrite{
-	background:#4D4D4D;
+	background:#630141;
 	padding:1em 0;
 }
 .ftr-logo{
