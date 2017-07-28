@@ -67,7 +67,7 @@ h1.b1, h2.b2, h3.b3 {
 }
 
 .header-top{
-	padding:1.3em 0;
+	padding:0em 0;
 }
 .logo{	
 	float:left;
@@ -97,7 +97,7 @@ h1.b1, h2.b2, h3.b3 {
 	
 }
 .header{
-	background:#757A80;
+	background:#11151A;
 }
 .top-menu ul li{
 	display:inline-block;
@@ -234,6 +234,28 @@ span.menu {
   background:rgba(0, 0, 0, 0.19);
   line-height:1.3em;
 }
+
+/* ===================================
+6. Sliders
+==================================== */
+/* --- flexslider --- */
+
+#featured .flexslider {
+	padding:0;
+	margin: 50px 0 30px; 
+	background: #fff; 
+	position: relative; 
+	zoom: 1;
+}
+
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption { bottom: 35px; background-color: rgba(0, 0, 0, 0.8); color: #fff; margin: 0; padding: 25px 25px 25px 30px; position: absolute; right: 0; width: 295px;}
+.flex-caption h3 {color: #fff; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;}
+.flex-caption p {margin: 0 0 15px;}
+
+
+
+
 /*--content--*/
 .content{
 	padding:4em 0 5em 0;
@@ -468,8 +490,8 @@ a.read:hover{
 
 /*--footer--*/
 .footer{
-	 padding:1em 0;
-	 background:#757A80;
+	 padding: 0.2em 0;
+	 background:#11151A;
 }
 .ftr-grid1 h3{
 	color: #fff;
@@ -1196,11 +1218,12 @@ ul.nav1 {
 	width: 100%;
 	left:0;
 }
+/** Menu desplegable #757A80 **/
 .top-menu ul.nav1 li {
 	 display: block;
 	 text-align: center;
-	 background:#3c300a;
-	 border-bottom: 1px dashed #3c300a;
+	 background:#11151A;
+	 border-bottom: 1px dashed #6B2370;
 	 margin: 0;
 	 width: 100%;
 }
