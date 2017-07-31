@@ -38,7 +38,7 @@ h3 {
 .parallax h4,
 .parallax h5,
 .parallax h6 {
-  color: #fff;
+  color: #000;
 }
 
 .parallax input[type="text"],
@@ -52,7 +52,7 @@ h3 {
 .parallax textarea,
 .parallax textarea:hover {
   font-weight: 300;
-  color: #fff;
+  color: #000;
 }
 
 .btn {
@@ -763,7 +763,7 @@ section {
 }
 
 .post-meta span {
-  margin-right: 16px;
+  margin-right: 50px;
 }
 
 #post-carousel .carousel-indicators {
@@ -843,7 +843,7 @@ section {
 **************************/
 
 #contact {
-  padding-top: 45px;
+  padding-top: 0px;
   padding-bottom: 0;
 }
 
@@ -853,11 +853,11 @@ section {
 
 #contact-us {
   background-image:url(../images/contact-bg.jpg);
-  padding-bottom: 90px; 
+  padding-bottom: 20px; 
 }
 
 #contact-us .heading {
-  padding-top: 95px;
+  padding-top: 20px;
 }
 
 .form-control {
@@ -869,7 +869,7 @@ section {
 }
 
 textarea.form-control {
-  min-height: 180px;
+  min-height: 300px;
   resize:none;
 }
 
@@ -878,29 +878,30 @@ textarea.form-control {
 }
 
 .contact-info {
-  padding-left:70px;
+  padding-left:20px;
   font-weight: 300;
 }
 
 ul.address {
   margin-top: 30px;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 2px;
+  margin: 0px;
+  width: 300px;
 }
 
 .contact-info ul li {
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 
-.contact-info ul li a {
-  color: #fff;
+.contact-info ul li a  {
+  color: #000;
 }
 
 .btn-submit {
   display: block;
   padding: 12px;
-  width: 100%;
+  width: 50%;
   color: #fff;
   border:0;
   margin-top: 40px;
