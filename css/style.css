@@ -278,6 +278,27 @@ span.menu {
     background:url(../images/pls.png) no-repeat 7px 11px #fff;
 	padding: 10px 30px;
 }
+
+.panel-male {
+color:#6B2370;
+font-size: 1.5em;
+margin-bottom: 0.1em;
+font-family: 'Marvel-Regular';
+text-align:left;
+background:url(../images/male_1.png) no-repeat 5px 8px #fff;
+padding: 3px 50px;
+}
+.panel-female {
+color:#6B2370;
+font-size: 1.5em;
+margin-bottom: 0.1em;
+font-family: 'Marvel-Regular';
+text-align:left;
+background:url(../images/female_1.png) no-repeat 5px 8px #fff;
+padding: 3px 50px;
+}
+
+
 .panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group {
   border-top: transparent;
 }
@@ -651,17 +672,33 @@ color:#6B2370;
   font-weight: 700;
   text-align:center;
 }
+.about h3{
+color:#6B2370;
+font-size: 2em;
+margin-bottom: 1em;
+font-family: 'Marvel-Regular';
+font-weight: 700;
+text-align:left;
+
+}
+
+.about p{
+color:#fffff;
+font-size: 1.3em;
+margin-bottom: 0.5em;
+
+}
 .about-head img{
-float:left;
-width:22%;
-margin-right:3%;
+float:center;
+width:98%;
+margin-right:0%;
 }
 .about-info{
 float:center;
 width:95%;
 }
 .about-info h3{
-	color: #757A80;
+	color: #6B2370;
   font-size: 2.1em;
   font-family: 'Marvel-Regular';
   font-weight: 700;
