@@ -275,8 +275,8 @@ span.menu {
 }
 .panel-default > .panel-heading {
   color: #999;
-    background:url(../images/pls.png) no-repeat 7px 11px #fff;
-	padding: 10px 30px;
+    background:url(../images/pls.png) no-repeat 1px 3px #fff;
+	padding: 5px 70px;
 }
 
 .panel-male {
@@ -679,6 +679,21 @@ margin-bottom: 1em;
 font-family: 'Marvel-Regular';
 font-weight: 700;
 text-align:left;
+
+}
+
+.about h4{
+color:#6B2370;
+font-size: 1.5em;
+font-family: 'Marvel-Regular';
+
+}
+
+.about h5{
+color:#6B2370;
+font-size: 2em;
+font-family: 'Marvel-Regular';
+text-align:center;
 
 }
 
