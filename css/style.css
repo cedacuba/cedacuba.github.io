@@ -707,7 +707,16 @@ margin-bottom: 0.5em;
 float:center;
 width:98%;
 margin-right:0%;
+
 }
+.about-donate img{
+float:center;
+width:30%;
+margin-right:50%;
+
+}
+
+
 .about-info{
 float:center;
 width:95%;
