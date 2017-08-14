@@ -91,11 +91,27 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
         font-size: 25px;
     }
 
+	@media (min-width: 768px) {
+    #templatemo-carousel .carousel-caption h1 {
+		font-family:  'Ludicrous';
+        margin-bottom: 10px;
+        line-height: 1;
+        font-size: 50px;
+    }
+	
+@media (max-width: 768px) {
+    #templatemo-carousel .carousel-caption h1 {
+		font-family:  'Ludicrous';
+        margin-bottom: 10px;
+        line-height: 1;
+        font-size: 50px;
+    }
     #templatemo-carousel .carousel-caption {
         padding-bottom: 40px;
         right: 20%;
         left: 20%;
     }
+	
 }
 
 @media (max-width: 768px) {
