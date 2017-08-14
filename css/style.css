@@ -264,7 +264,7 @@ span.menu {
 	color:#6B2370;
 	font-size:2.8em;
 	margin-bottom:6px;
-	font-family: 'Marvel-Regular';
+	font-family: 'Ludicrous';
 	font-weight:700;
 }
 .cntnt-head span,.testi-head span{
@@ -597,7 +597,7 @@ color: #fff;
 .ftr-logo h3 a{
 	display:inline-block;
 	text-decoration:none;
-	font-family: 'Marvel-Regular';
+	font-family: 'Ludicrous';
 	font-weight:700;
 	color:#fff;
 	font-size:1.5em;
@@ -668,7 +668,7 @@ padding:3em 0;
 color:#6B2370;
   font-size: 2.8em;
   margin-bottom: 1em;
-  font-family: 'Marvel-Regular';
+  font-family: 'Ludicrous';
   font-weight: 700;
   text-align:center;
 }
@@ -676,7 +676,7 @@ color:#6B2370;
 color:#6B2370;
 font-size: 2em;
 margin-bottom: 1em;
-font-family: 'Marvel-Regular';
+font-family: 'Ludicrous';
 font-weight: 700;
 text-align:left;
 
@@ -685,14 +685,14 @@ text-align:left;
 .about h4{
 color:#6B2370;
 font-size: 1.5em;
-font-family: 'Marvel-Regular';
+font-family: 'Ludicrous';
 
 }
 
 .about h5{
 color:#6B2370;
 font-size: 2em;
-font-family: 'Marvel-Regular';
+font-family: 'Ludicrous';
 text-align:center;
 
 }
@@ -711,8 +711,8 @@ margin-right:0%;
 }
 .about-donate img{
 float:center;
-width:30%;
-margin-right:50%;
+position: center;
+width:80%;
 
 }
 
