@@ -255,7 +255,12 @@ span.menu {
 
 
 
-
+.divisorhr {
+display:inline-block;
+	width:100%;
+	background:#6B2370;
+	height:2px;
+}
 /*--content--*/
 .content{
 	padding:4em 0 5em 0;
@@ -269,8 +274,8 @@ span.menu {
 }
 .cntnt-head span,.testi-head span{
 	display:inline-block;
-	width:10%;
-	background:#757A80;
+	width:100%;
+	background:#6B2370;
 	height:2px;
 }
 .panel-default > .panel-heading {
@@ -318,6 +323,7 @@ padding: 3px 50px;
   color: #6B2370;
   font-size: 1.3em;
   margin-bottom: 6px;
+  font-family: 'Ludicrous';
 }
 .panel-title a:hover {
   color: #6B2370;
@@ -456,14 +462,14 @@ padding: 3px 50px;
 }
 a.read{
   color:#6B2370;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: 600;
   display: inline-block;
-  font-family: 'Marvel-Regular';
+  font-family: 'Ludicrous';
   margin-top:1em;
 }
 a.read:hover{
-	color:#6F5C1D;
+	color:#6B2370;
 }
 .testi-grids{
 	margin-top:1.5em;
@@ -1338,6 +1344,13 @@ ul.nav1 {
 .panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
   font-size: 0.9em;
 }
+
+.panel-title  h4{
+color: #6B2370;
+
+}
+
+
 .cntnt-head h3, .recent_album h3, .news-head h3, .testi-head h3 {
   font-size: 1.5em;
 }
